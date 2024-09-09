@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Register for 10000 coders</legend>
+        <center>
+            <form action="./sucess.txt">
+                <pre>
+                    <label for="image">upload image--</label>
+                    <input type="image" src="./image.jpg" alt="girl" width="200" height="200" id="image">
+    
+                    <label for="name">Name--</label>
+                    <input type="text" name="" id="name" required>
+    
+                    <label for="email">Email--</label>
+                    <input type="email" name="" id="email" required>
+    
+                    <label for="education">Education--</label>
+                    <select name="education" id="education" style="width: 170px;" required>
+                        <option value="" selected>Choose from here</option>
+                        <option value="B.tech">B.tech</option>
+                        <option value="Bsc">Bsc</option>
+                        <option value="B.com">B.com</option>
+                        <option value="MCA">MCA</option>
+                        <option value="MBA">MBA</option>
+                    </select>
+
+                    <label for="pass">Year of passed out--</label>
+                    <select name="pass" id="pass" style="width: 170px;" required>
+                        <option value="" selected>Choose from here</option>
+                        <option value="2024">2024</option>
+                        <option value="2023">2023</option>
+                        <option value="2022">2022</option>
+                        <option value="2021">2021</option>
+                        <option value="2020">2020</option>
+                    </select>
+                    
+                    <label for="location">Location--</label>
+                    <input type="text" list="location" style="width: 170px;">
+                    <datalist id="location">
+                        <option value="hyderabad">hyderabad</option>
+                        <option value="bangloore">bangloore</option>
+                        <option value="chennai">chennai</option>
+                        <option value="remote">remote</option>
+                    </datalist>
+
+                    <label for="course">Choose your course--</label>
+                    <select name="course" id="course" style="width: 170px;" required>
+                        <option value="" selected>Choose from here</option>
+                        <option value="FrontEnd Developer">FrontEnd Developer</option>
+                        <option value="Java Fullstack">Java Fullstack</option>
+                        <option value="AWS">AWS</option>
+                        <option value="Python Fullstack">Python Fullstack</option>
+                    </select>
+
+                    <label for="num">PhNum--</label>
+                    <input type="text" name="" id="num">
+
+                    <label for="gender">Male</label>
+                    <input type="radio" name="gender" id="gender" required>
+                    <label for="gender">Female</label>
+                    <input type="radio" name="gender" id="gender" required>
+
+                    <label for="yes">Do you want to become Developer?</label>
+                    <input type="checkbox" name="yes" id="yes" required>
+                    <button type="submit">submit</button>
+                </pre>
+            </form>
+        </center>
+    </fieldset>
+</body>
+</html>
